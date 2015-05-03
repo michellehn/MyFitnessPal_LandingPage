@@ -2,7 +2,7 @@ MyFitnessPal Landing Page
 =====
 [myfitnesspal.bitballoon.com/](http://myfitnesspal.bitballoon.com/)
 - - - - -
-![screenshot1](https://raw.githubusercontent.com/michellehn/MyFitnessPal_LandingPage/master/images/screenshots/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/michellehn/MyFitnessPal_LandingPage/master/img/screenshots/screenshot1.png)
 - - - - -
 
 This site is a reimagined version of MyFitnessPal’s current landing page. Part of my application for KPCB’s Design Fellow’s program.
