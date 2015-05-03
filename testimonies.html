@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Free Calorie Counter, Diet &amp; Exercise Journal | MyFitnessPal.com</title>
+    <link rel="shortcut icon" href="img/mfplogo.ico">
+    <!-- image source: http://blog.withings.com/wp-content/uploads/2013/12/Myfitnesspal.png -->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- signup form -->
+    <div id="signupbox">
+        <div id="signupinfo">
+            <form>
+                <img id="signupclose" src="img/close.png"></span>
+                <h2>Sign up for MyFitnessPal</h2>
+                <div class="formel" id="usernamediv">
+                    <label for="username">Username:</label><br>
+                    <input type="text" name="username">
+                </div>
+                <div class="formel" id="emaildiv">
+                    <label for="emailaddress">Email Address:</label><br>
+                    <input type="email" name="emailaddress">
+                </div>
+                <div class="formel" id="passworddiv">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password">
+                </div>
+                <div class="formel" id="confirmpassworddiv">
+                    <label for="confirmpassword">Confirm Password:</label><br>
+                    <input type="password" name="confirmpassword">
+                </div>
+                <div class="formel" id="checkboxtext">
+                    <input type="checkbox" id="checkbox" name="newsletter" value="newsletter">Receive a free newsletter with diet tips, recipes, and more!<br>
+                </div>
+                <input type="submit" value="Sign Up">
+                <p>Already have an account? <a class="login">Log in</a></p>
+            </form>
+        </div>
+    </div>
+    <div id="loginbox">
+        <div id="logininfo">
+            <form>
+                <img id="loginclose" src="img/close.png">
+                <h2>Member Login</h2>
+                <div class="formel" id="usernamediv">
+                    <label for="username">Username:</label><br>
+                    <input type="text" name="username">
+                </div>
+                <div class="formel" id="passworddiv">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password">
+                </div>
+                <input type="submit" value="Log In">
+                <p>Not a member yet? <a id="signup">Sign up now!</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <!--<div id="testimony1">
+        <img src="img/test/test1_2.jpg">
+        <p>Dear MyFitnessPal,</p>
+    </div>-->
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html"><img src="img/name.gif" width="170"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="http://www.myfitnesspal.com/food/calorie-chart-nutrition-facts" target="_blank">Food</a>
+                    </li>
+                    <li>
+                        <a href="http://www.myfitnesspal.com/exercise/lookup" target="_blank">Exercise</a>
+                    </li>
+                    <li>
+                        <a href="http://www.myfitnesspal.com/apps" target="_blank">Apps</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.myfitnesspal.com/" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="http://community.myfitnesspal.com/en/categories" target="_blank">Community</a>
+                    </li>
+                    <li>
+                        <a class="login">Log In</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header" id="testimonieshead">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Why MyFitnessPal?</h1>
+                        <!-- <h3>The fastest, easiest to use calorie counter app.</h3> -->
+                        <!-- <hr class="intro-divider"> -->
+                        <!-- <ul class="list-inline intro-social-buttons">-->
+                            <!--<li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Sign up with Facebook</span></a>
+                            </li>-->
+                            <!--<li>
+                                <a href="#" class="btn btn-default btn-lg" id="emailsignup"><span class="network-name">Sign up for MyFitnessPal</span></a>
+                            </li>
+                        </ul>
+                        Already have an account? <a class="login">Log In</a>-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+    
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <table id="testrow1">
+                    <tr>
+                        <td>
+                            <img src="img/test/test1.png">
+                            <p>"Thanks to MyFitnessPal, I've rolled back 26 years of weight gain and discovered a life
+                            I thought was gone forever."
+                            <br><br>
+                            John Kilpatrick (jmkpublic)</p>
+                        </td>
+                        <td>
+                            <img src="img/test/test2.png">
+                            <p>"Every pound I lose gives me more confidence, and makes me feel like I can do anything.
+                            MFP gave me a life back that I truly believed I had lost."
+                            <br><br>
+                            Christine Hannon (hchristine)</p>
+                        </td>
+                        <td>
+                            <img src="img/test/test3.png">
+                            <p>"I can honestly say that finding this website has been the best thing to happen to me
+                            in my life..."
+                            <br><br>
+                            Cassie Bailey (superstarcassie)</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Watch one of our members featured on the Today Show!</h2>
+                    <p class="main">
+                        Tamara, a 31 year old mother of two, weighed 278 pounds at her all time high. One busy morning,
+                        she got off from work early to celebrate her daughter's birthday. But by the time she got to
+                        the party, she was so exhausted that her husband had to handle the party by himself. It was
+                        that day that she decided to do something about her weight. Tamara's friend April asked her
+                        to check out MyFitnessPal, and our free app and website helped her lose 141 pounds.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <video id="tamara_video" class="video-js" width="340" height="193" controls="controls" preload="none" poster="http://d34yn14tavczy0.cloudfront.net/assets/firstframe-4ea718fcecc2e2d5f0a5392a1cf48dce.jpg">
+                        <source src="http://assets-ssl.myfitnesspal.com/videos/tamara/tamara.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                          <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+                        <object id="flash_fallback_1" class="vjs-flash-fallback" width="340" height="193" type="application/x-shockwave-flash"
+                          data="http://d34yn14tavczy0.cloudfront.net/videos/flowplayer.commercial-3.2.7.swf" >
+                          <param name="movie" value="http://d34yn14tavczy0.cloudfront.net/videos/flowplayer.commercial-3.2.7.swf" />
+                          <param name="allowfullscreen" value="true" />
+                          <param name="wmode" value="opaque" />
+                          <param name="flashvars" value='config={"key":["#$a682814c61161502f35", "#$0ffeb8b604390e27874"],"playlist":["http://d34yn14tavczy0.cloudfront.net/assets/firstframe-4ea718fcecc2e2d5f0a5392a1cf48dce.jpg", {"url": "http://d34yn14tavczy0.cloudfront.net/videos/tamara/tamara.mp4","autoPlay":false,"autoBuffering":false}]}' />
+                            <!-- Image Fallback. Typically the same as the poster image. -->
+                          <img src="http://d34yn14tavczy0.cloudfront.net/assets/firstframe-4ea718fcecc2e2d5f0a5392a1cf48dce.jpg" width="340" height="193" alt="Poster Image"
+                            title="No video playback capabilities." />
+                        </object>
+                      </video>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">MyFitnessPal really works!</h2>
+                    <p class="lead">"MFP has been instrumental to my weight loss. I've tried countless
+                    times to lose weight but nothing worked. Anything restrictive and I would just gain
+                    the weight right back. But MyFitnessPal really works. MFP makes counting calories SO
+                    easy. I log onto my iPhone app every day and I'm proud to say I haven't missed a single
+                    day of logging in. The community aspect on this site is amazing and I've made some really
+                    great friends throughout this journey. I can't wait to continue losing weight with MFP!"
+                    <br><br>
+                    Juliette Willson (julwills)<br>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive testimg" id="scale" src="img/scale.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" id="easy">It's easier than you think</h2>
+                    <p class="main">
+                        "My trainer recommended MyFitnessPal to me, but I was concerned that it
+                        would be too time consuming and difficult to use...But it's easy! After a
+                        few days, it's just a couple of clicks and you're done! If you're serious
+                        about fitness or weight loss or eating better, MFP is an excellent way to
+                        keep you in check and on track." <br><br>Christina C. (chrisec)<br>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive testimg" id="runner" src="img/runner.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Over 4 million foods in our database</h2>
+                    <p class="lead">"MyFitnessPal has made a tremendous difference in my life!
+                    I love the vast database of food. The huge food database makes it almost impossible
+                    to NOT find a food that you're eating. The recipe counter makes it so much easier to
+                    track the nutrition in homemade meals and the exercise tracker lets me see the amount
+                    of calories I've worked off for the day. With MyFitnessPal's help, I've lost 75 lbs
+                    and I'm still going! I feel like a whole new woman!"
+                    <br><br>
+                    Nicole Schroeder (schro151)<br>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive testimg" src="img/veggiechop.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner" id="testimoniesfooter">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Kick your fitness into action.</h2>
+                    <p class="lead" id="sub">Sign up for a MyFitnessPal Account</p>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <input type="email" size="40" placeholder="Enter your email" name="email">
+                        <input type="submit" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://www.myfitnesspal.com/account/terms_and_privacy?with_layout=true" target="_blank">Terms</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://www.myfitnesspal.com/account/terms_and_privacy?with_layout=true#privacy" target="_blank">Privacy</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://www.myfitnesspal.com/welcome/contact_us" target="_blank">Contact Us</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://www.myfitnesspal.com/api" target="_blank">API</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://www.myfitnesspal.com/jobs" target="_blank">Jobs</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://community.myfitnesspal.com/en/categories/13" target="_blank">Feedback</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="http://www.myfitnesspal.com/welcome/guidelines" target="_blank">Community Guidelines</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; 2005-2015 MyFitnessPal, Inc.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery_main.js"></script>
+
+</body>
+
+</html>
