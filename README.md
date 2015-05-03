@@ -1,26 +1,35 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
+MyFitnessPal Landing Page
+=====
+[myfitnesspal.bitballoon.com/](http://myfitnesspal.bitballoon.com/)
+- - - - -
+![screenshot1](https://raw.githubusercontent.com/michellehn/MyFitnessPal_LandingPage/master/images/screenshots/screenshot1.png)
+- - - - -
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This site is a reimagined version of MyFitnessPal’s current landing page. Part of my application for KPCB’s Design Fellow’s program.
 
-## Getting Started
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+### Main elements on MyFitnessPal landing page
+- Sign up / sign in
+- General information about MyFitnessPal
+- Top bar navigation
+  * Food
+  * Exercise
+  * Apps
+  * Blog
+  * Community
 
-## Bugs and Issues
+### System Requirements
+MyFitnessPal landing page requires a computer with Internet Access and a
+"modern" browser.  Supported browsers include Firefox, Chrome, Safari,
+Opera, IE9+.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
 
-## Creator
+### To Install & Run MyFitnessPal landing page
+Unzip the files into a folder.  On a Mac or PC, navigate to
+AppleFest’s folder, then double-click the "index.html" file.
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+### Libraries, Frameworks & Technologies Used by MyFitnessPal Landing Page
+- jquery.js
+- HTML5
+- CSS3
